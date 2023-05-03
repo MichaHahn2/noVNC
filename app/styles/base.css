@@ -862,6 +862,11 @@ html {
   -webkit-user-select: none;
 }
 
+/* force local cursor */
+#noVNC_container canvas {
+  cursor: default !important;
+}
+
 #noVNC_keyboardinput {
   width: 1px;
   height: 1px;
